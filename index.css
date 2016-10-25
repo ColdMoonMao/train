@@ -1,0 +1,670 @@
+ html,
+body,
+.all {
+ 	padding: 0px;
+ 	margin: 0px;
+ 	height: 100%;
+ 	width: 100%;
+ 	font-family: 'Titillium Web', sans-serif;
+ 	min-width: 360px;
+ }
+ 
+* {
+ 	/*border: 1px solid red;*/
+ 	box-sizing: border-box;
+ }
+ 
+ *:before {
+  	box-sizing: border-box;
+}
+  
+  *:after {
+   	box-sizing: border-box;
+}
+
+    
+ .name {
+ 	width: 100%;
+ 	height: 756px;
+ 	background-image: url(" ./images/bg.jpg");
+ 	background-position: center;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	padding: 165px 7% 1% 7%;
+ }
+
+ .name .title {
+ 	color: #fff;
+ 	font-size: 140px;
+ 	line-height: 140px;
+ 	margin: 0px auto 0px auto;
+ 	text-align: center;
+ 	font-weight: lighter;
+ }
+ .name .text {
+ 	color: #fff;
+ 	font-size: 36px;
+ 	text-align: center;
+ 	margin-bottom: 150px;
+ 	font-weight: 300;
+ }
+ 
+ .name .ico {
+  	color: #7a7a7a;
+  }
+
+  
+  .name .to-bottom {
+   	width: 48px;
+   	height: 48px;
+   	border: solid 2px currentColor;
+   	border-radius: 50%;
+   	position: relative;
+   	margin: auto;
+   }
+
+ .clear {
+ 	clear: both;
+ }
+ .name .to-bottom:after {
+ 	content: '';
+ 	position: absolute;
+ 	left: 13px;
+ 	top: 10px;
+ 	width: 18px;
+ 	height: 18px;
+ 	border-bottom: solid 2px currentColor;
+ 	border-right: solid 2px currentColor;
+ 	-webkit-transform: rotate(45deg);
+ 	transform: rotate(45deg);
+ }
+.header {
+            	height: 50px;
+            	width: 100%;
+            	background-color: #000;
+            	padding-left: 2%;
+            	padding-right: 2%;
+}
+ .header .text {
+ 	float: left;
+ 	font-size: 36px;
+ 	font-weight: 300;
+ 	line-height: 50px;
+ 	color: #fff;
+ }
+ .menu {
+ 	float: right;
+ 	width: 60px;
+ 	height: 50px;
+ 	/*color: #000;*/
+ 	position: relative;
+ }
+ .menu .ico {
+ 	width: 30px;
+ 	background-color: #000;
+ 	height: 4px;
+ 	border: 1px solid #fff;
+ 	margin-top: 22.5px;
+ 	position: absolute;
+ 	right: 0px;
+ }
+ .menu .ico::before {
+ 	content: "";
+ 	width: 30px;
+ 	background-color: #000;
+ 	height: 4px;
+ 	border: 1px solid #fff;
+ 	position: absolute;
+ 	top: -9px;
+ 	right: -1px;
+ }
+
+ .menu .ico::after {
+ 	content: "";
+ 	width: 30px;
+ 	background-color: #000;
+ 	height: 4px;
+ 	border: 1px solid #fff;
+ 	position: absolute;
+ 	top: 7px;
+ 	right: -1px;
+ }
+.service{
+	width: 100%;
+	padding: 135px 0 30px 0;
+	background-color: #fff;
+}
+.service .head{
+	height: 110px;
+	width: 100%;
+	position:relative;
+	padding: 0 2% 0 2%;
+}
+.service .left{
+	height: 55px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.service .title{
+	height: 110px;
+	width:235px;
+	line-height: 110px;
+	font-size: 46px;
+	text-align: center;
+	margin: auto;
+	background-color: #fff;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-117.5px);
+}
+.service .container{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	padding: 20px 1% 20px 1%;
+	align-items: center;
+}
+.service .part{
+	flex: auto;
+	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+}
+.service .img{
+	height: 272px;
+	width: 272px;
+	flex: auto;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+.work{
+	width: 100%;
+	padding: 45px 0px 85px 0px;
+	background-color: #fff;
+}
+.work .head{
+	height: 110px;
+	width: 100%;
+	position:relative;
+	padding: 0 2% 0 2%;
+	margin-bottom: 12px;
+}
+.work .left{
+	height: 55px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.work .title{
+	height: 110px;
+	width:257px;
+	line-height: 110px;
+	font-size: 46px;
+	text-align: center;
+	margin: auto;
+	background-color: #fff;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-117.5px);
+}
+.work .container{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding: 15px 1% 15px 1%;
+}
+.work .img1{
+	flex: auto;
+	text-align: center;
+	margin: 15px 0px 15px 0px;
+	width: 360px;
+	height: 280px;
+	background-image: url( "./images/portfolio1.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.work .img2{
+	flex: auto;
+	text-align: center;
+	margin: 15px 0px 15px 0px;
+	width: 360px;
+	height: 280px;
+	background-image: url( "./images/portfolio2.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.work .img3{
+	flex: auto;
+	text-align: center;
+	margin: 15px 0px 15px 0px;
+	width: 360px;
+	height: 280px;
+	background-image: url( "./images/portfolio3.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.work .img4{
+	flex: auto;
+	text-align: center;
+	margin: 15px 0px 15px 0px;
+	width: 360px;
+	height: 280px;
+	background-image: url( "./images/portfolio4.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.work .img5{
+	flex: auto;
+	text-align: center;
+	margin: 15px 0px 15px 0px;
+	width: 360px;
+	height: 280px;
+	background-image: url( "./images/portfolio5.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.work .img6{
+	flex: auto;
+	text-align: center;
+	margin: 15px 0px 15px 0px;
+	width: 360px;
+	height: 280px;
+	background-image: url( "./images/portfolio6.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.work .foot{
+	width: 100%;
+	height: 65px;
+	margin-top: 65px;
+	position: relative;
+}
+.work .view{
+	height: 65px;
+	width: 160px;
+	font-size: 28px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 65px;
+	margin: auto;
+	border: 1px solid  #000;
+	/*left: 50%;*/
+	/*transform: translateX(-80px);*/
+	/*position: absolute;*/
+}
+/*第四部分test开始*/
+.test{
+	width: 100%;
+	background-image: url(" ./images/parallax.jpg");
+	background-size:100% 50% ;
+	-webkit-background-size:100% 50%  ;
+	background-position: 0 0;
+	background-repeat: repeat-y;
+	padding: 75px 0 75px 0;
+
+}
+.test .head{
+	height: 110px;
+	width: 100%;
+	position:relative;
+	padding: 0 3% 0 3%;
+	display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+	align-items: flex-start;
+	margin-bottom: 45px;
+}
+.test .left, .test .right{
+	height: 55px;
+	border-bottom: 1px solid #ccc;
+	flex: auto;
+}
+.test .title{
+	height: 110px;
+	width:305px;
+	line-height: 110px;
+	color: #fff;
+	font-size: 46px;
+	text-align: center;
+}
+.test .container{
+	width: 100%;
+}
+.test .img1{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	background-image: url(" ./images/testimonial.jpg");
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+.test .text{
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row nowrap;
+	margin-bottom: 30px;
+}
+.test .word-left, .test .word-right{
+	flex: auto;
+	min-width: 30px;
+}
+.test .word{
+	flex: auto;
+	max-width: 680px;
+	min-width: 315px;
+	color: #fff;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 600;
+	text-align: center;
+	font-style: italic;
+}
+.test .who{
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+.test .position{
+	width: 100%;
+	height: 20px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+.test .select{
+	width: 100%;
+	height: 40px;
+}
+/*第四部分，test结束*/
+/*第五部分，个人信息开始*/
+.hey{
+	width: 100%;
+	background-image: url(" ./images/google%20maps.PNG");
+	background-size:cover;
+	-webkit-background-size:cover;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+.hey>.head{
+	height: 225px;
+	width: 100%;
+	position:relative;
+	padding: 0 3% 0 3%;
+	display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+	align-items: flex-start;
+	background-color: rgba(0,0,0,0.65);
+
+}
+.hey .left, .hey .right{
+	height: 55px;
+	margin-top: 75px;
+	border-bottom: 1px solid #ccc;
+	flex: auto;
+}
+.hey .title{
+	height: 110px;
+	width:179px;
+	margin-top: 75px;
+	line-height: 110px;
+	color: #fff;
+	font-size: 46px;
+	text-align: center;
+}
+.hey .container{
+	width: 100%;
+	display: flex;
+	align-content: flex-start;
+	justify-content: space-around;
+	align-items: flex-start;
+	background-color: rgba(0,0,0,0.65);
+	flex-flow: row wrap;
+	color: #fff;
+	padding: 0px 3% 10px 3%;
+
+
+}
+.hey .me-info, .hey .message{
+	width: 50%;
+	max-width: 555px;
+	min-width: 345px;
+	display: flex;
+	flex: auto;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: column nowrap;
+	margin-bottom: 50px;
+}
+.hey .caption{
+	height: 80px;
+	width: 100%;
+	font-size: 38px;
+	color: #fff;
+
+}
+.hey .text , .hey .email{
+	width: 100%;
+	flex: auto;
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	line-height: 22px;
+}
+.hey .address , .hey .phone{
+	width: 100%;
+	flex: auto;
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	line-height: 26px;
+}
+.hey .website{
+	width: 100%;
+	flex: auto;
+	font-size: 16px;
+	color: #e66f69;
+	margin-bottom: 10px;
+	font-weight: 600;
+	line-height: 22px;
+}
+.hey #name, .hey #email{
+	width: 100%;
+	height: 50px;
+	color: #999;
+	border: 1px solid  #8e8e8e;
+	margin-bottom: 15px;
+	background-color: rgba(255,255,255,0.1);
+	padding: 0px 10px 0px 10px;
+	font-size: 18px;
+}
+.hey #textarea{
+	width: 100%;
+	height: 125px;
+	border: 1px solid  #8e8e8e;
+	margin-bottom: 15px;
+	color: #999;
+	background-color: rgba(255,255,255,0.1);
+	padding: 0px 10px 0px 10px;
+	font-size: 18px;
+}
+.hey .submit{
+	width: 110px;
+	height: 38px;
+	color: #f7f7f7;
+	border: 1px solid white;
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: 10px;
+	background-color: transparent;
+}
+form{
+	width: 100%；
+}
+/*个人信息结束*/
+/*联系方式开始*/
+.contact{
+	background-color: rgba(0,0,0,0.75);
+	padding: 30px 0px 45px 0px;
+
+}
+.contact .head .title{
+	margin:0px auto 30px auto;
+	border-bottom: 1px solid #fff;
+	width: 320px;
+	line-height: 90px;
+	height: 90px;
+}
+.contact .logo{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.contact div:hover{
+	background-position: 0 50px;
+}
+.contact .space{
+	flex: auto;
+}
+.contact .fb{
+	width: 50px;
+	height: 50px;
+	background-image: url(" ./images/facebook.png");
+	background-position: 0 0;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	flex: none;
+	margin: 0px 8px 0px 8px;
+}
+.contact .tw{
+	width: 50px;
+	height: 50px;
+	background-image: url(" ./images/twitter.png");
+	background-position: 0 0;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	flex: none;
+	margin: 0px 8px 0px 8px;
+}
+.contact .in{
+	width: 50px;
+	height: 50px;
+	background-image: url(" ./images/linkedin.png");
+	background-position: 0 0;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	flex: none;
+	margin: 0px 8px 0px 8px;
+}
+.contact .g{
+	width: 50px;
+	height: 50px;
+	background-image: url(" ./images/google-plus.png");
+	background-position: 0 0;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	flex: none;
+	margin: 0px 8px 0px 8px;
+}
+.contact .wp{
+	width: 50px;
+	height: 50px;
+	background-image: url(" ./images/wordpress.png");
+	background-position: 0 0;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	flex: none;
+	margin: 0px 8px 0px 8px;
+}
+/*页脚开始*/
+.footer{
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	padding: 0 10px 0 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: center;
+	font-size: 16px;
+	font-weight: 600;
+}
+.footer .title{
+	width: 100%;
+	min-width: 115px;
+	max-width: 120px;
+	margin: 20px 0 ;
+	text-align: center;
+}
+.footer .text{
+	width: 100%;
+	max-width: 620px;
+	margin: 20px 0px 0px 0px;
+	text-align: right;
+}
+span.color-red{
+	color: #e66f69;
+}
+
+
+
+
+
+/*手机分辨率适配开始*/
+@media screen and (max-width: 580px) {
+ .name {
+ 	background-image: url(" ./images/bg-small.jpg");
+ 	/*background-position: center;*/
+ 	/*background-size: cover;*/
+ 	/*background-repeat: no-repeat;*/
+ 	/*background-attachment: fixed;*/
+ }
+
+  .name .title {
+ 	font-size: 58px;
+ }
+ 
+ .name .text {
+  	font-size: 24px;
+  }
+	
+}
+@media screen and (max-width: 780px) {
+.footer .title{
+	margin: 20px auto;
+	text-align: center;
+}
+ .footer .text{
+	margin: 20px auto 0px ;
+	text-align: center;
+ }
+}
